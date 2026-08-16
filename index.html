@@ -744,7 +744,7 @@ pvModifier:'Modifier les prix',pvTous:'Tous',pvAide:'Modifiez directement les pr
 
 qCoupe:'Le bon touche deux bords de l\'image : une partie peut manquer.',qCoupeFort:'Document incomplet : reculez ou recentrez pour voir le bon en entier.',qReflet:'Un reflet éclaircit une partie du document.',qRefletFort:'Reflet important : une partie du texte est effacée. Changez l\'angle ou éloignez la source de lumière.',qVerdictVert:'Photo exploitable, la lecture peut être lancée.',qVerdictOrange:'Photo imparfaite mais exploitable : le prétraitement devrait suffire.',qVerdictRouge:'Photo probablement inexploitable pour la lecture automatique.',
 
-trProduitInconnu:'« %p » n\'existe pas au catalogue : enregistrez-le d\'abord dans Produits.',trQteInvalide:'Quantité invalide.',trMotifInconnu:'Motif de mouvement inconnu.',trAnnulSansVente:'Aucune vente correspondante à annuler pour ce produit.',trParentAbsent:'La vente d\'origine est introuvable.',trParentInvalide:'Une annulation ne peut porter que sur une vente ou un envoi.',trParentAutreProduit:'La vente d\'origine concerne un autre produit.',trDejaAnnule:'Cette vente est déjà entièrement annulée.',trAnnulTrop:'Annulation de %q demandée, mais il ne reste que %r à annuler.',trStockInsuffisant:'Stock insuffisant : %l',trAppuyerEncore:'Appuyez à nouveau pour enregistrer malgré tout.',trLiee:'liée à une vente',trStockAlerte:'stock insuffisant au moment du mouvement',annul:'Annulation',annulD:'Annule une vente existante',
+trProduitInconnu:'« %p » n\'existe pas au catalogue : enregistrez-le d\'abord dans Produits.',trQteInvalide:'Quantité invalide.',trMotifInconnu:'Motif de mouvement inconnu.',trAnnulSansVente:'Aucune transaction correspondante à qualifier pour ce produit.',trParentAbsent:'La transaction d\'origine est introuvable.',trParentInvalide:'Cette qualification ne peut porter que sur une vente ou un envoi.',trParentAutreProduit:'La transaction d\'origine concerne un autre produit.',trDejaAnnule:'Cette transaction est déjà entièrement qualifiée.',trAnnulTrop:'Qualification de %q demandée, mais il ne reste que %r à qualifier.',trStockInsuffisant:'Stock insuffisant : %l',trAppuyerEncore:'Appuyez à nouveau pour enregistrer malgré tout.',trLiee:'liée à une transaction',trStockAlerte:'stock insuffisant au moment du mouvement',annul:'Annulation',annulD:'Annule une vente existante',
 
 qViseur:'Placez le bon de livraison dans le cadre',qC1:'Posez le bon à plat, sur une surface unie',qC2:'Tenez le téléphone bien au-dessus, pas de biais',qC3:'Évitez les ombres portées et les reflets',qTitre:'Qualité de la photo',qBonne:'Bonne qualité, la lecture devrait bien se passer.',qFlou:'Photo floue : le texte risque d\'être illisible. Refaites-la en stabilisant le téléphone.',qPeuNet:'Photo un peu molle : la lecture sera moins fiable.',qSombre:'Photo trop sombre : allumez la lumière ou approchez-vous d\'une fenêtre.',qSurexpose:'Photo surexposée : le texte clair risque de disparaître.',qPeuContraste:'Peu de contraste entre le texte et le papier.',qTropLoin:'Le bon occupe une trop petite partie de l\'image : rapprochez-vous.',qUnPeuLoin:'Rapprochez-vous un peu, le texte sera plus net.',qIncline:'Document incliné de %a° : redressez-le pour aligner les colonnes.',qPetite:'Image de faible définition : le texte fin sera difficile à lire.',qConseilRefaire:'Nous vous conseillons de reprendre cette photo avant de lancer la lecture.',
 
@@ -838,7 +838,7 @@ pvModifier:'Edit prices',pvTous:'All',pvAide:'Edit selling prices directly. The 
 
 qCoupe:'The note touches two edges of the frame: part of it may be missing.',qCoupeFort:'Incomplete document: step back or recentre to fit the whole note.',qReflet:'A reflection is brightening part of the document.',qRefletFort:'Strong reflection: part of the text is washed out. Change angle or move the light source.',qVerdictVert:'Usable photo, reading can start.',qVerdictOrange:'Imperfect but usable: preprocessing should be enough.',qVerdictRouge:'Photo likely unusable for automatic reading.',
 
-trProduitInconnu:'“%p” is not in the catalogue: add it in Products first.',trQteInvalide:'Invalid quantity.',trMotifInconnu:'Unknown movement reason.',trAnnulSansVente:'No matching sale to cancel for this product.',trParentAbsent:'The original sale cannot be found.',trParentInvalide:'A cancellation can only apply to a sale or a send-out.',trParentAutreProduit:'The original sale is for a different product.',trDejaAnnule:'This sale is already fully cancelled.',trAnnulTrop:'Cancellation of %q requested, but only %r remains.',trStockInsuffisant:'Not enough stock: %l',trAppuyerEncore:'Tap again to record anyway.',trLiee:'linked to a sale',trStockAlerte:'stock was insufficient at the time',annul:'Cancellation',annulD:'Cancels an existing sale',
+trProduitInconnu:'“%p” is not in the catalogue: add it in Products first.',trQteInvalide:'Invalid quantity.',trMotifInconnu:'Unknown movement reason.',trAnnulSansVente:'No matching transaction to classify for this product.',trParentAbsent:'The original transaction cannot be found.',trParentInvalide:'This classification can only apply to a sale or a send-out.',trParentAutreProduit:'The original transaction is for a different product.',trDejaAnnule:'This transaction is already fully classified.',trAnnulTrop:'Classification of %q requested, but only %r remains to classify.',trStockInsuffisant:'Not enough stock: %l',trAppuyerEncore:'Tap again to record anyway.',trLiee:'linked to a transaction',trStockAlerte:'stock was insufficient at the time',annul:'Cancellation',annulD:'Cancels an existing sale',
 
 qViseur:'Place the delivery note inside the frame',qC1:'Lay the note flat on a plain surface',qC2:'Hold the phone straight above, not at an angle',qC3:'Avoid shadows and reflections',qTitre:'Photo quality',qBonne:'Good quality, reading should go well.',qFlou:'Blurry photo: text may be unreadable. Retake it holding the phone steady.',qPeuNet:'Slightly soft photo: reading will be less reliable.',qSombre:'Photo too dark: turn on a light or move near a window.',qSurexpose:'Overexposed photo: light text may disappear.',qPeuContraste:'Little contrast between text and paper.',qTropLoin:'The note fills too little of the frame: move closer.',qUnPeuLoin:'Move a little closer for sharper text.',qIncline:'Document tilted by %a°: straighten it to align the columns.',qPetite:'Low resolution image: small text will be hard to read.',qConseilRefaire:'We recommend retaking this photo before running the reading.',
 
@@ -1404,7 +1404,7 @@ const MOTIFS=[{id:'offClient',i:'🎁',ap:'tous'},{id:'offPart',i:'🤝',ap:'tou
 const TABLES=['T04','T12','T07','T21','T03','T15','T09','BAR','T18','T06','TERR 2','TERR 5'];
 const POSTES=[{id:'salle',i:'🧑‍💼',n:'Responsable de salle',resp:true},{id:'chef',i:'👨‍🍳',n:'Chef de cuisine',resp:true},
 {id:'gestion',i:'📊',n:'Gestion / direction',resp:true},
-{id:'barman',i:'🍸',n:'Barman',resp:false},{id:'commis',i:'🧑‍🍳',n:'Commis',resp:false},
+{id:'barman',i:'🍸',n:'Barman',resp:false},
 {id:'serveur',i:'🙋',n:'Serveur',resp:false}];
 /* Droits : les responsables voient tout. L'équipe voit Déclarer, Livraisons, Inventaire, Stock (sans prix). */
 const estResp=()=>{const p=POSTES.find(x=>x.id===st.whoId);return p?!!p.resp:true};
@@ -1610,21 +1610,25 @@ for(const [pid,x] of Object.entries(c.f||{}))st.stock[pid]=Math.max(0,(st.stock[
 
 const MOTIFS_PRIMAIRES=['vente','envoi'];              /* créent la consommation */
 const MOTIF_REVERSE='annul';                           /* restitue le stock */
+/* Ces motifs ne créent jamais une seconde sortie de stock : ils qualifient
+   une ligne déjà envoyée par la caisse ou enregistrée comme transaction. */
+const MOTIFS_A_TRACER=['annul','offClient','offPart','offGroupe','casse','rate'];
 
-/* Quantité encore annulable sur un mouvement primaire */
-function resteAnnulable(mvId){
+/* Quantité d'une vente/envoi qui peut encore être qualifiée ou annulée.
+   Une même quantité ne peut recevoir qu'une seule qualification. */
+function resteATracer(mvId){
  const p=(st.mv||[]).find(m=>m.id===mvId);
  if(!p||!MOTIFS_PRIMAIRES.includes(p.motif))return 0;
  const deja=(st.mv||[])
-  .filter(m=>m.motif===MOTIF_REVERSE&&m.parent===mvId)
+  .filter(m=>MOTIFS_A_TRACER.includes(m.motif)&&m.parent===mvId)
   .reduce((s,m)=>s+(m.qty||0),0);
  return Math.max(0,(p.qty||0)-deja);
 }
 
-/* Ventes/envois d'un produit encore annulables, du plus récent au plus ancien */
-function ventesAnnulables(platId){
+/* Ventes/envois d'un produit encore qualifiables, du plus récent au plus ancien */
+function ventesATracer(platId){
  return (st.mv||[])
-  .filter(m=>MOTIFS_PRIMAIRES.includes(m.motif)&&m.plat===platId&&resteAnnulable(m.id)>0)
+  .filter(m=>MOTIFS_PRIMAIRES.includes(m.motif)&&m.plat===platId&&resteATracer(m.id)>0)
   .sort((a,b)=>new Date(b.ts)-new Date(a.ts));
 }
 
@@ -1659,8 +1663,8 @@ function validerMouvement(m){
  if(!m.motif||!motifsOk.includes(m.motif))
   return{ok:false,code:'motif_inconnu',msg:t('trMotifInconnu')};
 
- /* 4. Une annulation doit être rattachée à une vente/envoi du même produit */
- if(m.motif===MOTIF_REVERSE){
+ /* 4. Annulation, offert et perte : toujours rattachés à une ligne primaire. */
+ if(MOTIFS_A_TRACER.includes(m.motif)){
   if(!m.parent)return{ok:false,code:'annul_sans_parent',msg:t('trAnnulSansVente')};
   const p=(st.mv||[]).find(x=>x.id===m.parent);
   if(!p)return{ok:false,code:'parent_absent',msg:t('trParentAbsent')};
@@ -1668,15 +1672,15 @@ function validerMouvement(m){
    return{ok:false,code:'parent_invalide',msg:t('trParentInvalide')};
   if(p.plat!==m.plat)
    return{ok:false,code:'parent_autre_produit',msg:t('trParentAutreProduit')};
-  const reste=resteAnnulable(m.parent);
+  const reste=resteATracer(m.parent);
   if(reste<=0)return{ok:false,code:'deja_annule',msg:t('trDejaAnnule')};
   if(q>reste+1e-9)return{ok:false,code:'annul_trop',
    msg:t('trAnnulTrop').replace('%q',fmtQ(q)).replace('%r',fmtQ(reste))};
  }
 
- /* 5. Sorties de stock : on prévient si le stock ne suit pas */
+ /* 5. Seules les transactions primaires et les sorties directes consomment le stock. */
  let alerte=null;
- if(m.motif!==MOTIF_REVERSE){
+ if(!MOTIFS_A_TRACER.includes(m.motif)){
   const s=stockSuffisant(m.plat,q);
   if(!s.ok){
    alerte={code:'stock_insuffisant',
@@ -1700,9 +1704,9 @@ function creerMouvement(m,opts){
  const c=item(m.plat);
  const q=Number(m.qty);
 
- /* Effet sur le stock : une annulation restitue, tout le reste consomme */
+ /* Effet sur le stock : annulation restitue ; offert/perte qualifient sans déduire. */
  if(m.motif===MOTIF_REVERSE) rendreStock(m.plat,q);
- else deduire(m.plat,q);
+ else if(!MOTIFS_A_TRACER.includes(m.motif))deduire(m.plat,q);
 
  const mv={
   id:m.id||(Date.now()+Math.random()),
@@ -1714,7 +1718,7 @@ function creerMouvement(m,opts){
   who:m.who||st.who,
   ts:m.ts||new Date().toISOString(),
   parent:m.parent||null,
-  chaine:m.parent?'reverse':'primaire'
+  chaine:m.parent?'qualification':'primaire'
  };
  if(m.ph)mv.ph=m.ph;
  if(v.alerte)mv.alerte=v.alerte.code;
@@ -1758,10 +1762,10 @@ function posEvent(){
  let mo=pool[Math.floor(Math.random()*pool.length)];
  const q=mo==='vente'?(Math.random()<.72?1:(Math.random()<.7?2:3)):1;
 
- /* Une annulation ne peut exister que si une vente réelle la justifie */
+ /* Annulation/offert/perte : uniquement après une ligne primaire correspondante. */
  let parent=null;
- if(mo===MOTIF_REVERSE){
-  const cand=ventesAnnulables(c.id);
+ if(MOTIFS_A_TRACER.includes(mo)){
+  const cand=ventesATracer(c.id);
   if(cand.length){parent=cand[0].id}
   else{mo='vente'}                      /* sinon on retombe sur une vente */
  }
@@ -1780,10 +1784,14 @@ function sinceSync(){const s=Math.floor((Date.now()-st.lastSync)/1000);return s<
 function renderCaisse(){const auto=st.mv.filter(m=>m.src==='auto');
 const rows=auto.length?auto.slice(0,40).map(m=>{const d=new Date(m.ts);
 const hh=d.getHours().toString().padStart(2,'0')+':'+d.getMinutes().toString().padStart(2,'0');
-const mt=m.motif==='vente'?pvMv(m):coutMv(m);
+/* Une vente affiche le prix encaissé ; les autres motifs affichent le coût matière.
+   Le libellé évite de faire passer un coût unitaire pour un prix de vente. */
+const estVente=m.motif==='vente';
+const mt=estVente?pvMv(m):coutMv(m);
+const libMontant=estVente?t('vente'):t('coutMat');
 return `<div class="feed-row"><span class="f-ico">${m.platI}</span>
 <span class="f-body"><div class="f-t">${m.platN}${m.qty>1?' × '+m.qty:''}</div>
-<div class="f-m">${hh} · ${m.table} · ${fmt(mt)} €${
+<div class="f-m">${hh} · ${m.table} · ${libMontant} : ${fmt(mt)} €${
  m.parent?` · ↩ ${t('trLiee')}`:''}</div></span>
 <span class="tag ${m.motif}">${t(m.motif).toUpperCase()}</span></div>`}).join('')
 :`<div class="empty"><div class="e-ico">📡</div><p><b>${t('vide')}</b><br>${t('videD')}</p></div>`;
@@ -1902,8 +1910,8 @@ const now=new Date().toISOString();
 const refus=[];
 for(const [id,q] of Object.entries(panier)){
  let parent=null;
- if(motif===MOTIF_REVERSE){
-  const cand=ventesAnnulables(id);      /* rattachement automatique à la vente la plus récente */
+ if(MOTIFS_A_TRACER.includes(motif)){
+  const cand=ventesATracer(id);         /* rattachement automatique à la vente la plus récente */
   if(!cand.length){refus.push({id,msg:t('trAnnulSansVente')});continue}
   parent=cand[0].id;
  }
